@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(178, 225, 233);
+     background-position: 50% 70%;
+     font-family: monospace;
+}
+
+
+/*-----------------------Menu*/
+
+nav{
+    background-color: rgb(58, 99, 124);
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 120px;
+}
+
+
+li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 15px;
+    font-size: 16pt;
+
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+input{
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 8pt;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.01);
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]{
+    width: 60px;
+    background-color:lightsteelblue;
+    border: none;
+    cursor: pointer;
+}
+
+/* saudação-----------------*/
+
+h2{
+    font-family: monospace;
+    font-size: 20pt;
+
+}
+
+/* galeria------------------------------*/
+div.img {
+    margin: 5px;
+    border: 1px solid lightskyblue;
+    float: left;
+    width: 180px;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+table {
+    width: 95%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th {
+    height: 50px;
+    background-color: lightsalmon;
+    color: white;
+}
+
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
